@@ -121,7 +121,6 @@ Preprocessing included filtering domain-relevant roles, normalizing skill names,
 
 ## Installation and Setup (Run Locally)
 
-```bash
 # Clone the repository
 git clone <repository-url>
 cd app
@@ -226,6 +225,6 @@ Problem Statement: 3
 
 Project Type: Full-stack Skill Intelligence and Career Readiness System
 
-Conclusion
+### Conclusion
 
 This project delivers an explainable, secure, and scalable skill intelligence platform that bridges the gap between academic learning and industry requirements. By focusing on career readiness estimation rather than opaque prediction, the system provides meaningful, actionable guidance for long-term professional growth in emerging sectors.
