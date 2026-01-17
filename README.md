@@ -131,13 +131,13 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-# Backend runs at http://localhost:8000
+Backend runs at http://localhost:8000
 
 # Frontend setup
 cd ../frontend
 npm install
 npm run dev
-# Frontend runs at http://localhost:5173
+Frontend runs at http://localhost:5173
 
 ### Environment Variables
 
@@ -152,7 +152,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=1046108634118
 VITE_FIREBASE_APP_ID=1:1046108634118:web:d60234c7501642d2e7d787
 VITE_FIREBASE_MEASUREMENT_ID=G-EHVNMYY1F9
 
-## Backend
+### Backend
 DATABASE_URL=sqlite:///./app.db
 ENV=development
 SECRET_KEY=hackathon-secret-key-change-me
@@ -187,7 +187,7 @@ Firebase credentials are managed via environment variables
 
 Dataset is referenced by link only; no raw data is committed
 
-##Demonstration
+###Demonstration
 
 The demonstration includes:
 
